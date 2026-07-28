@@ -17,7 +17,7 @@ Descrever o modelo de segurança da Junta Observatory Platform, abrangendo segur
 
 ```mermaid
 flowchart TD
-    subgraph "Prevenção"
+    subgraph Prev["Prevenção"]
         WAF[WAF / ModSecurity]
         TLS[TLS 1.3]
         AUTH[Autenticação Forte]
@@ -25,20 +25,20 @@ flowchart TD
         INPUT[Input Validation]
         CSP[CSP / CORS]
     end
-    subgraph "Detecção"
+    subgraph Det["Detecção"]
         IDS[IDS / IPS]
         LOG[Log Analysis]
         MET[Métricas Anómalas]
         SOC[SOC / SIEM]
     end
-    subgraph "Resposta"
+    subgraph Resp["Resposta"]
         IR[Incident Response]
         FOR[Forensics]
         NOTIF[Notificação CNPD]
         RECOV[Recovery]
     end
-    Prevenção -->|falha| Detecção
-    Detecção -->|incidente| Resposta
+    Prev -->|falha| Det
+    Det -->|incidente| Resp
 ```
 
 ### Matriz de Segurança

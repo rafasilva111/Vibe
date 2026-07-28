@@ -18,35 +18,35 @@ gantt
   dateFormat  YYYY-MM
   axisFormat  %Y-%m
 
-  section Fase 1 — Fundação
-  Modelo de Domínio e Arquitectura     :f1a, 2026-01, 2026-03
-  Motor de Workflows                    :f1b, 2026-02, 2026-04
-  Catálogo de Serviços                  :f1c, 2026-02, 2026-04
-  Gestão Documental                     :f1d, 2026-03, 2026-05
-  Formulários Digitais                  :f1e, 2026-03, 2026-05
-  Autenticação (CMD, Gov)              :f1f, 2026-04, 2026-06
-  MVP Operacional (Junta Piloto)        :milestone, 2026-06, 0d
+  section "Fase 1 — Fundação"
+  "Modelo de Domínio e Arquitectura"     :f1a, 2026-01, 2026-03
+  "Motor de Workflows"                    :f1b, 2026-02, 2026-04
+  "Catálogo de Serviços"                  :f1c, 2026-02, 2026-04
+  "Gestão Documental"                     :f1d, 2026-03, 2026-05
+  "Formulários Digitais"                  :f1e, 2026-03, 2026-05
+  "Autenticação (CMD, Gov)"              :f1f, 2026-04, 2026-06
+  "MVP Operacional (Junta Piloto)"        :milestone, 2026-06, 0d
 
-  section Fase 2 — Produtividade
-  Gestão de Tarefas e Checklists        :f2a, 2026-05, 2026-07
-  Base de Conhecimento                  :f2b, 2026-06, 2026-08
-  Notificações Multi-Canal              :f2c, 2026-06, 2026-08
-  Dashboards e Relatórios               :f2d, 2026-07, 2026-09
-  SLAs e KPIs                           :f2e, 2026-07, 2026-09
-  Administração e RBAC                  :f2f, 2026-08, 2026-10
-  API Pública v1                        :milestone, 2026-10, 0d
+  section "Fase 2 — Produtividade"
+  "Gestão de Tarefas e Checklists"        :f2a, 2026-05, 2026-07
+  "Base de Conhecimento"                  :f2b, 2026-06, 2026-08
+  "Notificações Multi-Canal"              :f2c, 2026-06, 2026-08
+  "Dashboards e Relatórios"               :f2d, 2026-07, 2026-09
+  "SLAs e KPIs"                           :f2e, 2026-07, 2026-09
+  "Administração e RBAC"                  :f2f, 2026-08, 2026-10
+  "API Pública v1"                        :milestone, 2026-10, 0d
 
-  section Fase 3 — Inteligência
-  Assistente IA                         :f3a, 2026-09, 2026-11
-  Pesquisa Semântica                    :f3b, 2026-09, 2026-11
-  Process Mining                        :f3c, 2026-10, 2026-12
-  Automação baseada em Regras           :f3d, 2026-10, 2026-12
-  Observabilidade Completa              :f3e, 2026-11, 2027-01
-  Versão 2.0 (GA)                       :milestone, 2027-01, 0d
+  section "Fase 3 — Inteligência"
+  "Assistente IA"                         :f3a, 2026-09, 2026-11
+  "Pesquisa Semântica"                    :f3b, 2026-09, 2026-11
+  "Process Mining"                        :f3c, 2026-10, 2026-12
+  "Automação baseada em Regras"           :f3d, 2026-10, 2026-12
+  "Observabilidade Completa"              :f3e, 2026-11, 2027-01
+  "Versão 2.0 (GA)"                       :milestone, 2027-01, 0d
 
-  section Fase 4 — Expansão
-  Domínios Plugin (11 domínios)         :f4a, 2026-12, 2027-04
-  Marketplace de Domínios               :f4b, 2027-02, 2027-05
+  section "Fase 4 — Expansão"
+  "Domínios Plugin (11 domínios)"         :f4a, 2026-12, 2027-04
+  "Marketplace de Domínios"               :f4b, 2027-02, 2027-05
   Integrações Nacionais                 :f4c, 2027-01, 2027-04
   Analítica Preditiva                   :f4d, 2027-03, 2027-06
   Plataforma Estável                    :milestone, 2027-06, 0d

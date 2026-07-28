@@ -1,0 +1,31 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "references": {
+    "docs": {
+      "path": "../docs",
+      "description": "SRS completa da Junta Observatory Platform — consultar para requisitos, arquitectura, normas, e decisões de negócio"
+    }
+  },
+  "agent": {
+    "architect": {
+      "description": "Desenha a arquitectura técnica de novas funcionalidades",
+      "model": "anthropic/claude-sonnet-4-6",
+      "mode": "subagent"
+    },
+    "spec-writer": {
+      "description": "Cria especificações detalhadas seguindo IEEE 29148",
+      "model": "anthropic/claude-sonnet-4-6",
+      "mode": "subagent"
+    },
+    "developer": {
+      "description": "Implementa funcionalidades em Java/TS/Python",
+      "model": "anthropic/claude-sonnet-4-6",
+      "mode": "subagent"
+    },
+    "tester": {
+      "description": "Cria e executa testes (unitários, integração, E2E)",
+      "model": "anthropic/claude-sonnet-4-6",
+      "mode": "subagent"
+    }
+  },
+}

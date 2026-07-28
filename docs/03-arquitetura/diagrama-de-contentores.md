@@ -129,14 +129,14 @@ flowchart TB
     MS_SOCIAL --> PG
     MS_FIN --> PG
 
-    MS_CAT ---> KAFKA
-    MS_WF ---> KAFKA
-    MS_TASK ---> KAFKA
-    MS_DOC ---> KAFKA
-    KAFKA ---> MS_NOTIF
-    KAFKA ---> MS_REPORT
-    KAFKA ---> MS_AUDIT
-    KAFKA ---> MS_AI
+    MS_CAT --> KAFKA
+    MS_WF --> KAFKA
+    MS_TASK --> KAFKA
+    MS_DOC --> KAFKA
+    KAFKA --> MS_NOTIF
+    KAFKA --> MS_REPORT
+    KAFKA --> MS_AUDIT
+    KAFKA --> MS_AI
 
     K8S --> Todos_MS[Todos os Microserviços]
 ```

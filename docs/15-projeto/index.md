@@ -30,17 +30,17 @@ gantt
     dateFormat YYYY-MM
     axisFormat %Y-%m
 
-    section Fase 1 — Fundação
-    MVP Operacional : 2026-01, 2026-06
+    section "Fase 1 — Fundação"
+    "MVP Operacional" : 2026-01, 2026-06
 
-    section Fase 2 — Produtividade
-    API Pública v1  : 2026-05, 2026-10
+    section "Fase 2 — Produtividade"
+    "API Pública v1"  : 2026-05, 2026-10
 
-    section Fase 3 — Inteligência
-    Versão 2.0 GA   : 2026-09, 2027-01
+    section "Fase 3 — Inteligência"
+    "Versão 2.0 GA"   : 2026-09, 2027-01
 
-    section Fase 4 — Expansão
-    Plataforma Estável : 2026-12, 2027-06
+    section "Fase 4 — Expansão"
+    "Plataforma Estável" : 2026-12, 2027-06
 ```
 
 ## Documentos Relacionados

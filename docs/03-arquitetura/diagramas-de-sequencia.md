@@ -71,6 +71,7 @@ sequenceDiagram
     participant NOTIF as Notificações
     participant ES as Event Store
     participant KAFKA as Event Bus
+    participant CID as Cidadão
 
     D->>GW: POST /api/v1/casos/casoId/despachar
     Note over D,GW: Despacho + Fundamentação
@@ -97,7 +98,7 @@ sequenceDiagram
         KAFKA->>NOTIF: Evento: notificacao.enviar
         activate NOTIF
         NOTIF->>NOTIF: Template: Decisão Favorável
-        NOTIF->>CID[ Cidadão ]: Email: Decisão do seu pedido
+        NOTIF->>CID: Email: Decisão do seu pedido
         deactivate NOTIF
     end
 ```

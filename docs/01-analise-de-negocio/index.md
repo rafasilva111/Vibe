@@ -27,32 +27,32 @@ Esta secção descreve a estrutura organizacional, o modelo de governo, os actor
 
 ```mermaid
 flowchart LR
-    subgraph Organização
+    subgraph Org["Organização"]
         Presidente
         Executivo
         Funcionarios
         Departamentos
     end
-    subgraph Governo
+    subgraph Gov["Governo"]
         Assembleia
         Pelouros
     end
-    subgraph Atores
+    subgraph Act["Atores"]
         Cidadao
         Funcionario
         Dirigente
         Sistema
         Integrador
     end
-    subgraph Permissoes
+    subgraph Perm["Permissoes"]
         Funcoes
         PermissoesRBAC
         Políticas
     end
-    Organização --> Atores
-    Governo --> Organização
-    Atores --> Permissoes
-    Regras_Negocio --> Atores
+    Org --> Act
+    Gov --> Org
+    Act --> Perm
+    Regras_Negocio --> Act
     Regras_Negocio --> Processos
     Ciclo_Vida --> Processos
 ```
